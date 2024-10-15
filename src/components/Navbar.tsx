@@ -16,7 +16,7 @@ export function Navbar() {
         className={cn(
           "z-50",
           "flex h-[3.5rem] px-4",
-          "bg-accent/20 w-full items-center border-b"
+          "w-full items-center border-b bg-accent/20"
         )}
       >
         <div className="hidden select-none text-xl font-extrabold uppercase md:block">
@@ -30,14 +30,14 @@ export function Navbar() {
             </Link>
             <Link
               target="_blank"
-              href="https://github.com/riad-azz/instagram-video-downloader"
+              href="https://github.com/wittyparth/ReelDownloader"
               className="hover:underline"
             >
               Github
             </Link>{" "}
             <Link
               target="_blank"
-              href="https://github.com/riad-azz"
+              href="https://github.com/wittyparth"
               className="hover:underline"
             >
               Creator
